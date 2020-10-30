@@ -1,0 +1,48 @@
+.contactContainer{
+    height: 85vh;
+
+}
+.textArea{
+    height:40vh !important;
+   
+}
+.iconLink{
+    color:black;
+}
+.iconLink:hover{
+    text-decoration:none;
+    color:black;
+}
+.blue-text{
+    color:#342D7E;
+}
+.blue-back{
+    background-color:#342D7E ;
+    color:white;
+}
+p{
+    color: black;
+}
+.contactInfo{
+    margin-top: 2%;
+}
+.info{
+    position:relative;
+    animation: slideRightt 2s 1;
+
+}
+
+@keyframes slideLeftt {
+    from {left: -1000px;}
+    to {left: 15px;}
+  }
+
+.emailBox{
+    position:relative;
+    animation: slideLeftt 2s 1;
+}
+
+@keyframes slideRightt {
+    from {right: -1000px;}
+    to {right: 15px;}
+  }

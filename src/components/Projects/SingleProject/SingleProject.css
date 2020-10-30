@@ -1,0 +1,29 @@
+.singleProject{
+    position:relative;
+}
+.projectImage{
+    height:300px;
+    width:500px;
+    border-radius: 10px;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(52, 45, 126);
+    background: rgba(52, 45, 126, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 87.8%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+.singleProject:hover .overlay {
+    opacity: 1;
+  }

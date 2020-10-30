@@ -1,0 +1,34 @@
+.resumeContainer {
+    background: linear-gradient(to bottom,#C6DEFF 20%, #EBF4FA 100%);
+    background-size: cover;
+    height:175.3vh;
+    padding:7%;
+    margin-top:-3.3%;
+}
+.blue-back:hover{
+   text-decoration:none;
+   color:white;
+}
+.myName{
+    font-weight: bold;
+}
+.introduction,.about,.education{
+    position:relative;
+    animation: slideRight 2s 1;
+
+}
+
+@keyframes slideRight {
+    from {left: -1000px;}
+    to {left: 15px;}
+  }
+
+.skills,.comSkill{
+    position:relative;
+    animation: slideLeft 2s 1;
+}
+
+@keyframes slideLeft {
+    from {right: -1000px;}
+    to {right: 15px;}
+  }
