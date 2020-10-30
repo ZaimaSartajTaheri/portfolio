@@ -3,7 +3,7 @@
 }
 .projectImage{
     height:300px;
-    width:500px;
+    width:450px;
     border-radius: 10px;
 }
 .overlay {
@@ -12,7 +12,7 @@
     background: rgb(52, 45, 126);
     background: rgba(52, 45, 126, 0.5); /* Black see-through */
     color: #f1f1f1; 
-    width: 87.8%;
+    width: 79%;
     transition: .5s ease;
     opacity:0;
     color: white;
@@ -27,3 +27,4 @@
 .singleProject:hover .overlay {
     opacity: 1;
   }
+  

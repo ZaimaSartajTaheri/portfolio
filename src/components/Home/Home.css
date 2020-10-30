@@ -3,11 +3,13 @@
     background-size: cover;
     height:120vh;
     width:120vw;
-    padding:20%;
-    margin-top:-13%;
+    padding:15%;
+    margin-left:-15%;
+    margin-top:-3.5%;
     color:white;
 }
-.profile{
+
+.profileImage{
     height:100px;
     border-radius: 50%;
     background-color: white;

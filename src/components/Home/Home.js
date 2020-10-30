@@ -9,10 +9,10 @@ const Home = () => {
         <div className="home">
             <div className="container">
            
-            <div className="d-flex">
-            <img className="profile mr-3" src="https://i.ibb.co/KyPp9Py/profile.png" alt=""/>
+            <div>
+            <img className="profileImage mr-3" src="https://i.ibb.co/KyPp9Py/profile.png" alt=""/>
             <div class="typewriter">
-            <h1 className="mt-3 name">HI,I AM ZAIMA SARTAJ TAHERI</h1>
+            <h1 className="mt-3 name">ZAIMA SARTAJ TAHERI</h1>
             </div>
             </div>
             
